@@ -9,7 +9,7 @@ docker build . -t cairosvg-service
 docker run --rm -it -p 8080:8080 --name cairosvg-service cairosvg-service
 ```
 
-Then, `http://localhost:8080/<url>` returns a converted PNG image.
+Then, `http://localhost:8080/convert/<url>` returns a converted PNG image.
 
 Example URL: https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/android.svg
 
